@@ -1,0 +1,25 @@
+
+                    BODY,TD 
+                    {
+	                font-family: Calibri;
+	                SCROLLBAR-FACE-COLOR: #000000;
+                        SCROLLBAR-HIGHLIGHT-COLOR: #6666CC; 
+                        SCROLLBAR-SHADOW-COLOR: #6666CC; 
+                        COLOR: #000000; 
+                        SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+                        CROLLBAR-ARROW-COLOR: #ffffff; 
+                        SCROLLBAR-TRACK-COLOR: #6666CC; 
+                        SCROLLBAR-DARKSHADOW-COLOR: #000000;
+                    }
+
+                    A 
+                    {
+	                color:lavender;
+	                text-decoration:none;
+                    }
+
+                    A:hover 
+                    {
+	                color:red;
+                    }
+                    

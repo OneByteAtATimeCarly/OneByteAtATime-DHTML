@@ -1,0 +1,40 @@
+<HTML>
+    
+    <HEAD>
+             <TITLE>U2. HTML SCRIPT TAGS</TITLE>
+    </HEAD>
+    
+    <BODY  bgcolor="black" text="white" link="red" vlink="yellow">
+        
+    <BR>U2. HTML SCRIPT TAGS - JavaScript
+    <BR><BR><BR> 
+<!- ----------------------------------------------------------------------- ->
+           <SCRIPT LANGUAGE="JavaScript">
+               
+                   var value;
+
+                   document.writeln( "<table border = \"1\" width = \"50%\">" );
+                   document.writeln( "<caption>20 Random Numbers in a Table:</caption><tr>" );
+      
+                   //Generate a random number between 1 and 6 and do it 20 times
+                   for( var i = 1; i <= 20; i++ ) 
+                   {
+                        value = Math.floor( 1 + Math.random() * 6 );
+                        document.writeln( "<td>" + value + "</td>" );
+  
+                        //Write end and start <tr> tags when i is a multiple of 5 (5 cols) and not 20 (last)
+                        if( i % 5 == 0 && i != 20 )
+                        {
+                            document.writeln( "</tr><tr>" );
+                        }
+                   }
+
+                   document.writeln( "</tr></table>" );
+                   
+           </SCRIPT>
+<!- ----------------------------------------------------------------------- ->
+
+    </BODY>
+
+</HTML>
+

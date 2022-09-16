@@ -1,0 +1,25 @@
+<HTML>
+    
+    <HEAD>
+             <TITLE>S. HTML Frames</TITLE>
+    </HEAD>
+    
+<FRAMESET COLS = "110,*">
+    
+           <FRAME NAME = "SideMenu"  SRC = "S_SideMenu.html"/>
+
+           <!– Note: We are nesting one frame set inside of another --> 
+
+           <FRAMESET ROWS = "75,*">
+                     <FRAME  NAME= "TopMenu" SRC = "S_TopMenu.html" />
+                     <FRAME  NAME= "MainBody"  SRC = "S_MainBody.html" />
+           </FRAMESET>
+
+           <NOFRAMES>  
+                      <P>This page uses frames, but your browser does do that!</P>
+           </NOFRAMES>
+
+</FRAMESET>
+
+</HTML>
+
